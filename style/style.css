@@ -1,62 +1,60 @@
-/* reset */
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
-/* generics */
-
-
-/* header */
-
-.title {
-    height: 50px;
-    margin: 5px;
-}
-
-#logo {
-    vertical-align: middle;
-    margin-bottom: 10px;
-}
-
-#title-text {
-    display: inline-block;
-    line-height: 50px;
-    font-family: sans-serif;
-    font-weight: 700;
-}
-
-
-/* main */
-
-.container {
-    background-color: lightgray;
-    padding: 5px;
-}
-
-.add {
-    background-color: white;
-    height: 50px;
-    width: 600px;
-    margin: 0px auto;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-button {
-    background-color: lightseagreen;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    border-color: lightseagreen;
-    margin-top: 5px;
-    margin-left: 15px;
-}
-
-.b2 {
-    background-color: white;
-    border-color: gray;
-}
+        /* reset */
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        /* generics */
+        
+        .container {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        
+        .white-background {
+            background-color: white;
+            width: 600px;
+            margin: 0px auto;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        /* header */
+        
+        .title {
+            height: 50px;
+            margin: 5px;
+        }
+        
+        #logo {
+            vertical-align: middle;
+            margin-bottom: 10px;
+        }
+        
+        #title-text {
+            display: inline-block;
+            line-height: 50px;
+            font-family: sans-serif;
+            font-weight: 700;
+        }
+        /* main */
+        
+        .add {
+            height: 50px;
+        }
+        
+        button {
+            background-color: lightseagreen;
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            border-color: lightseagreen;
+            margin-top: 5px;
+            margin-left: 15px;
+        }
+        
+        .b2 {
+            background-color: white;
+            border-color: gray;
+        }
+        /* principal */
