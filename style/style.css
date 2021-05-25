@@ -4,6 +4,7 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            font-family: sans-serif;
         }
         /* generics */
         
@@ -34,13 +35,14 @@
         #title-text {
             display: inline-block;
             line-height: 50px;
-            font-family: sans-serif;
+            /* font-family: sans-serif; */
             font-weight: 700;
         }
         /* main */
         
         .add {
             height: 50px;
+            margin-top: 40px;
         }
         
         button {
@@ -51,10 +53,22 @@
             border-color: lightseagreen;
             margin-top: 5px;
             margin-left: 15px;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         
         .b2 {
             background-color: white;
             border-color: gray;
+            color: gray;
         }
         /* principal */
+        
+        .principal {
+            margin-top: 3px;
+            padding: 20px;
+        }
+        
+        #sectitle {
+            font-weight: 800;
+        }
